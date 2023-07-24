@@ -1,0 +1,7 @@
+site_name: uniget
+theme:
+  name: material
+nav:
+- Home: index.md
+- Concepts: concepts.md
+- Impressum: impressum.md
