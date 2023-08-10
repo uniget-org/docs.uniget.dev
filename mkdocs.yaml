@@ -1,7 +1,23 @@
-site_name: uniget
+site_name: uniget docs
+repo_url: https://github.com/uniget-org/cli
+repo_name: uniget-org/cli
 theme:
   name: material
+  features:
+  - navigation.sections
+  palette:
+    primary: indigo
+    scheme: slate
 nav:
 - Home: index.md
-- Concepts: concepts.md
-- Impressum: impressum.md
+- Usage:
+  - Installation: installation.md
+  - Quickstart: quickstart.md
+- Concepts:
+  - Overview: concepts.md
+  - Manifest: manifest.md
+  - Docker: docker.md
+  - Renovate: renovate.md
+  - Air-Gapped: air-gapped.md
+- XXX:
+  - Impressum: impressum.md
