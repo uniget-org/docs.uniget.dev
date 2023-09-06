@@ -9,8 +9,8 @@ Template files are located in `@template/`.
 The manifest file contains all information about a tool except for the installation instructions.
 
 ```yaml
-# yaml-language-server: $schema=https://docker-setup.dille.io/schema.yaml
-$schema: https://docker-setup.dille.io/schema.yaml
+# yaml-language-server: $schema=https://uniget.dev/schema.yaml
+$schema: https://uniget.dev/schema.yaml
 name: foo
 version: 1.2.3
 binary: fooctl
@@ -34,7 +34,7 @@ renovate:
   allowPrereleases: false
 ```
 
-The following fields are mandatory for `docker-setup` to operate:
+The following fields are mandatory for `uniget` to operate:
 
 - `name` - The name must be unique and must match the name of the subdirectory under `tools/`.
 
@@ -67,7 +67,7 @@ Optional fields:
 
 ## `Dockerfile.template`
 
-The `Dockerfile.template` file is used to create the `Dockerfile` by appending []`Dockerfile.tail`](https://github.com/nicholasdille/docker-setup/blob/main/tools/Dockerfile.tail). Due to this process, the `Dockerfile.template` must define a target called `prepare` which contains a subdirectory called `uniget_install`. The contents of this directory will be copied to the final image.
+The `Dockerfile.template` file is used to create the `Dockerfile` by appending [`Dockerfile.tail`](https://github.com/uniget-org/tools/blob/main/tools/Dockerfile.tail). Due to this process, the `Dockerfile.template` must define a target called `prepare` which contains a subdirectory called `uniget_install`. The contents of this directory will be copied to the final image.
 
 ## Reference of variables
 
