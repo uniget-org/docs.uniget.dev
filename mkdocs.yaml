@@ -13,11 +13,11 @@ nav:
 - Usage:
   - Installation: installation.md
   - Quickstart: quickstart.md
+  - Context: context.md
+  - chroot: chroot.md
 - Concepts:
   - Overview: concepts.md
   - Manifest: manifest.md
   - Docker: docker.md
   - Renovate: renovate.md
   - Air-Gapped: air-gapped.md
-- XXX:
-  - Impressum: impressum.md
