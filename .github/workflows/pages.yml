@@ -33,10 +33,6 @@ jobs:
     #  with:
     #    prefix: helper
     #    tools: mkdocs
-    #
-    #- name: Create site
-    #  run: |
-    #    helper/usr/local/bin/mkdocs build
 
     - name: Install mkdocs
       run: |
@@ -48,6 +44,11 @@ jobs:
             mkdocs-minify-plugin \
             mkdocs-macros-plugin \
             mkdocs-redirects
+
+    - name: Create site
+      run: |
+        #helper/usr/local/bin/mkdocs build
+        mkdocs build
 
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v1
