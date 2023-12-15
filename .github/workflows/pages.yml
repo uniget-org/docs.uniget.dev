@@ -28,15 +28,26 @@ jobs:
       with:
         fetch-depth: 0
 
-    - name: Install uniget
-      uses: uniget-org/uniget-action@v1
-      with:
-        prefix: helper
-        tools: mkdocs
+    #- name: Install uniget
+    #  uses: uniget-org/uniget-action@v1
+    #  with:
+    #    prefix: helper
+    #    tools: mkdocs
+    #
+    #- name: Create site
+    #  run: |
+    #    helper/usr/local/bin/mkdocs build
 
-    - name: Create site
+    - name: Install mkdocs
       run: |
-        helper/usr/local/bin/mkdocs build
+        pip install \
+            mkdocs \
+            mkdocs-material \
+            mkdocs-material-extensions \
+            pymdown-extensions \
+            mkdocs-minify-plugin \
+            mkdocs-macros-plugin \
+            mkdocs-redirects
 
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v1
