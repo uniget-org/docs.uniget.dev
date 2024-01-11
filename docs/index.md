@@ -1,8 +1,15 @@
 # Welcome to uniget
 
-The universal installer and updater for (container) tools
+The universal installer and updater for (container) tools...
 
-And the last binary you will ever need to install :-)
+...and the last binary you will ever need to install :-)
+
+## Features
+
+- Ships as a single binary
+- Installs tools on your box
+- Supports hundreds of tools
+- Does not require Docker
 
 Apart from this documentation, check out the following links:
 

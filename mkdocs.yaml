@@ -13,8 +13,15 @@ nav:
 - Usage:
   - Installation: installation.md
   - Quickstart: quickstart.md
+  - Global Parameters: global-parameters.md
+  - Subcommands: subcommands.md
+  - Environment: environment.md
   - Context: context.md
   - chroot: chroot.md
+- Integrations:
+  - Completion: completion.md
+  - SystemD: systemd.md
+  - Shell Profile: shell-profile.md
 - Concepts:
   - Overview: concepts.md
   - Manifest: manifest.md

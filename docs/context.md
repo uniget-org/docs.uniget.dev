@@ -14,7 +14,11 @@ You can modify these directories with the `--target`, `--lib-root` and `--cache-
 
 ### Example
 
-XXX
+Create a dedicated directory for `uniget`:
+
+```bash
+sudo uniget --target=/opt/uniget install gojq
+```
 
 ## User context
 
@@ -30,4 +34,8 @@ You cannot use `--prefix` or `--target` in user context. But the state and cache
 
 ### Example
 
-XXX
+Install tools inside your home directory:
+
+```bash
+uniget --user install gojq
+```

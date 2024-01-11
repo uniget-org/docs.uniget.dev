@@ -2,6 +2,8 @@
 
 `uniget` packages tools into dedicated container images. These images are created `FROM scratch` and contain only one tool without dependencies.
 
+When tools are installed, the container image is pulled from the registry and the tool is extracted into the target directory.
+
 The CLI is a statically linked Go binary and is used to discover, install and update tools.
 
 ![](concepts.drawio.svg)

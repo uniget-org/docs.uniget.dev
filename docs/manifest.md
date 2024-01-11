@@ -6,7 +6,7 @@ Template files are located in `@template/`.
 
 ## `manifest.yaml`
 
-The manifest file contains all information about a tool except for the installation instructions.
+The manifest file contains all information about a tool except for the installation instructions. The schema is available at https://uniget.dev/schema.yaml - the source is located here https://github.com/uniget-org/tools.uniget.dev/blob/main/site/static/schema.yaml.
 
 ```yaml
 # yaml-language-server: $schema=https://uniget.dev/schema.yaml
