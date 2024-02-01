@@ -36,4 +36,4 @@ Sets trace log level. Short for `--log-level=trace`.
 
 ## `--no-interactive`
 
-Disables interactive menus and prompts.
+Disables interactive menus and prompts. This feature was removed in 0.12.0.

@@ -35,7 +35,7 @@ You can search for the specified term in names, tags and dependencies:
 uniget search jq
 ```
 
-If you are running this interactively, a small text-based UI offers to install selected tools from the search results.
+If you are running this interactively, a small text-based UI offers to install selected tools from the search results. This feature was removed in 0.12.0.
 
 ### You want to update installed tools
 

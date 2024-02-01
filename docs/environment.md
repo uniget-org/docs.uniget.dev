@@ -20,7 +20,7 @@ Set the user context using `$UNIGET_USER` or `--user`. See [context](context.md)
 
 ## User interaction
 
-Disable user interaction with `$UNIGET_NO_INTERACTIVE=1` or `--no-interactive`.
+Disable user interaction with `$UNIGET_NO_INTERACTIVE=1` or `--no-interactive`. This feature was removed in 0.12.0.
 
 ## Configure default behaviour
 
