@@ -16,6 +16,7 @@ Tools are packaged, stored and transported as container images but containerizat
     1. All files must be placed under `/uniget_bootstrap`
     1. The file requires a final target called `prepare`
     1. If you rely on an existing tool to package your tool, declare the respective container image first, e.g. `make`:
+
         ```Dockerfile
         FROM ghcr.io/uniget-org/tools/make:latest AS make
         ```
@@ -29,6 +30,7 @@ Tools are packaged, stored and transported as container images but containerizat
         ```
 
         Also add these dependencies to the `build_dependencies` field in `manifest.yaml`
+
     1. If you rely on an existing tool to execute your tool (e.g. `go` or `make`), add the dependencies to the `runtime_dependencies` field in `manifest.yaml`
     1. Examples for many scenarios are included in `@template/Dockerfile.template`
 1. Build the container image for your new tool: `make TOOL--debug`
