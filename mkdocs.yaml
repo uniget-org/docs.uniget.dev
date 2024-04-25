@@ -25,6 +25,7 @@ nav:
 - Concepts:
   - Overview: concepts.md
   - Manifest: manifest.md
+  - Authoring new tools: authoring.md
   - Docker: docker.md
   - Renovate: renovate.md
   - Air-Gapped: air-gapped.md
