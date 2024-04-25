@@ -41,3 +41,11 @@ Configure a custo mtarget directory:
 ```bash
 export UNIGET_TARGET=/opt/uniget
 ```
+
+## Metadata download
+
+Automatically update the metadata when needed:
+
+```bash
+export UNIGET_AUTO_UPDATE=true
+```

@@ -37,3 +37,7 @@ Sets trace log level. Short for `--log-level=trace`.
 ## `--no-interactive`
 
 Disables interactive menus and prompts. This feature was removed in 0.12.0.
+
+## `--auto-update`
+
+Automatically update the metadata when needed
