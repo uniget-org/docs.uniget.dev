@@ -17,7 +17,7 @@ Tools are packaged, stored and transported as container images but containerizat
     1. The file requires a final target called `prepare`
     1. If you rely on an existing tool to package your tool, declare the respective container image first, e.g. `make`:
 
-        ```Dockerfile
+        ```
         FROM ghcr.io/uniget-org/tools/make:latest AS make
         ```
     
@@ -25,7 +25,7 @@ Tools are packaged, stored and transported as container images but containerizat
 
         The copy the contents into your image:
 
-        ```Dockerfile
+        ```
         COPY --from=make / /usr/local
         ```
 
