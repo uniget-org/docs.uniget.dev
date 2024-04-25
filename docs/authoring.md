@@ -19,11 +19,15 @@ Tools are packaged, stored and transported as container images but containerizat
         ```Dockerfile
         FROM ghcr.io/uniget-org/tools/make:latest AS make
         ```
+    
         If you are using a pinned version instead of the `latest` tag, the tag will not get renovated. This is not recommended.
+
         The copy the contents into your image:
+
         ```Dockerfile
         COPY --from=make / /usr/local
         ```
+
         Also add these dependencies to the `build_dependencies` field in `manifest.yaml`
     1. If you rely on an existing tool to execute your tool (e.g. `go` or `make`), add the dependencies to the `runtime_dependencies` field in `manifest.yaml`
     1. Examples for many scenarios are included in `@template/Dockerfile.template`
