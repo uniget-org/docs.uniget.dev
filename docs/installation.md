@@ -17,7 +17,7 @@ Installation commands for the uniget [CLI](https://github.com/uniget-org/cli):
 
 ```bash
 curl -sLf https://github.com/uniget-org/cli/releases/latest/download/uniget_Linux_$(uname -m).tar.gz \
-| sudo tar -xzC ~/.local/bin uniget
+| tar -xzC ~/.local/bin uniget
 ```
 
 By default `uniget` will operate in global context even if installed inside the home directory. Either use `--user` when running `uniget` or set `$UNIGET_USER`. See [context](context.md) for more information.
