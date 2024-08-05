@@ -4,11 +4,11 @@ The following subcommands are available.
 
 ## completion
 
-COMING SOON
+Generate completion scripts
 
 ## cron
 
-COMING SOON
+Install cron jobs for updating the metadata (see `update`) as well as upgrading all tools (see `upgrade`)
 
 See also [cron](cron.md)
 
@@ -26,58 +26,62 @@ COMING SOON
 
 ## help
 
-COMING SOON
+Display help
 
 ## inspect
 
-COMING SOON
+Show all files belonging to the specified tool: `uniget inspect docker`
 
 ## install
 
-COMING SOON
+Install one or more tools
 
 ## list
 
-COMING SOON
+List available or installed tools
 
 ## man
 
-COMING SOON
+Install manpages for uniget
 
 ## message
 
-COMING SOON
+Show messages for a tools
 
 ## postinstall
 
-COMING SOON
+Deprecated. Will be replaced by `shim`
 
 ## search
 
-COMING SOON
+Search for tools
 
 ## self-upgrade
+
+Upgrade uniget to the latest version
+
+## shim
 
 COMING SOON
 
 ## tags
 
-COMING SOON
+Show tags used for available tools
 
 ## uninstall
 
-COMING SOON
+Remove one or more tools
 
 ## update
 
-COMING SOON
+Update metadata about tools
 
 See also [concepts](concepts.md)
 
 ## upgrade
 
-COMING SOON
+Upgrade a tool to the latest version
 
 ## version
 
-COMING SOON
+Show the version of an installed tool

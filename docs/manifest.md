@@ -1,6 +1,6 @@
 # Tools
 
-Tools are located under the `tools/` subdirectory. Each tool directory must have `manifest.yaml` and `Dockerfile.template`..
+Tools are located under the `tools/` subdirectory. Each tool directory must have `manifest.yaml` and `Dockerfile.template`.
 
 Template files are located in `@template/`.
 
