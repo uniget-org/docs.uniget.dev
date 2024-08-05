@@ -1,6 +1,6 @@
 # Tools
 
-Tools are located under the `tools/` subdirectory. Each tool directory must have `manifest.yaml` and `Dockerfile.template`. The `post_install.sh` file is optional.
+Tools are located under the `tools/` subdirectory. Each tool directory must have `manifest.yaml` and `Dockerfile.template`..
 
 Template files are located in `@template/`.
 
@@ -71,10 +71,9 @@ The `Dockerfile.template` file is used to create the `Dockerfile` by appending [
 
 ## Reference of variables
 
-The following variables are available in `Dockerfile.template` or `post_install.sh`
+The following variables are available in `Dockerfile.template`:
 
 - `arch` - system architecture (`x86_64` or `aarch64`)
 - `alt_arch` - alternative name for system architecture (`amd64` or `arm64`)
 - `prefix` - used to install into a subdirectory (empty by default)
-- `target` - installation directory (defaults to `${prefix}/usr/local`)
 - `uniget_contrib` - XXX (defaults to `${prefix}/var/lib/uniget/contrib`)
