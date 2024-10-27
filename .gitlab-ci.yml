@@ -1,4 +1,4 @@
-mkdocs-pages:
+pages:
   image: python:3.13.0-slim
   before_script:
   - |
