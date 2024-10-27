@@ -1,0 +1,18 @@
+mkdocs-pages:
+  image: python:3.13.0-slim
+  before_script:
+  - |
+    pip install \
+        mkdocs \
+        mkdocs-material \
+        mkdocs-material-extensions \
+        pymdown-extensions \
+        mkdocs-minify-plugin \
+        mkdocs-macros-plugin \
+        mkdocs-redirects
+  script:
+  - |
+    mkdocs build --site-dir public
+  artifacts:
+    paths:
+    - public
