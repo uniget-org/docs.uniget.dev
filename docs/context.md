@@ -22,7 +22,8 @@ sudo uniget --target=/opt/uniget install gojq
 
 ## User context
 
-If root permissions are not available or not desired, add the `--user` flag to install in user context. This will install the tools in the user's home directory using the following paths:
+If root permissions are not available or not desired, add the `--user` flag to install in user context. Alternatively, set the UNIGET_USER environment variable, for example with `export UNIGET_USER=1`
+This will install the tools in the user's home directory using the following paths:
 
 - `~/.local` for tools
 - `~/.local/var/lib/uniget` for state
@@ -38,4 +39,8 @@ Install tools inside your home directory:
 
 ```bash
 uniget --user install gojq
+
+# alternative:
+export UNIGET_USER=1
+uniget install gojq
 ```
