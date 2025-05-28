@@ -50,7 +50,7 @@ Show messages for a tools
 
 ## postinstall
 
-Deprecated. Will be replaced by `shim`
+Deprecated and removed. Replaced by `shim`
 
 ## search
 
