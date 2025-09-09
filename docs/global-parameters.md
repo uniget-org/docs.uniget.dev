@@ -1,6 +1,6 @@
 # Global Parameters
 
-The following global parameters are available for all commands. See also [environment](environment.md)
+The following global parameters are available for all commands. See also [environment](environment.md).
 
 ## `--help`
 
@@ -12,15 +12,27 @@ Show version of `uniget` on the console.
 
 ## `--prefix`
 
-Base directory for the installation (useful when preparing a chroot environment). See also [chroot](chroot.md)
+Base directory for the installation (useful when preparing a chroot environment). See also [chroot](chroot.md).
 
 ## `--target`
 
-Target directory for installation relative to PREFIX (default "usr/local")
+Target directory for installation relative to PREFIX (default "usr/local").
 
 ## `--user`
 
-Install in user context. See also [context](context.md)
+Install in user context. See also [context](context.md).
+
+## `--auto-update`
+
+Automatically update the metadata when needed.
+
+## `--registry`, `--repository`
+
+Point to a custom registry and repository.
+
+## `--cache`, `--cache-directory`, `--cache-retention`
+
+Configure caching of downloaded tools. Defaults to `none`. Supported values are `file`, `docker`, `containerd`. See also [caching](caching.md).
 
 ## `--log-level`
 
@@ -33,11 +45,3 @@ Sets debug log level. Short for `--log-level=debug`.
 ## `--trace`
 
 Sets trace log level. Short for `--log-level=trace`.
-
-## `--no-interactive`
-
-Disables interactive menus and prompts. This feature was removed in 0.12.0.
-
-## `--auto-update`
-
-Automatically update the metadata when needed

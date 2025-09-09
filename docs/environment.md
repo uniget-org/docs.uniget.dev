@@ -18,10 +18,6 @@ Set the target directory `$UNIGET_TARGET` or `--target`.
 
 Set the user context using `$UNIGET_USER` or `--user`. See [context](context.md) for more information.
 
-## User interaction
-
-Disable user interaction with `$UNIGET_NO_INTERACTIVE=1` or `--no-interactive`. This feature was removed in 0.12.0.
-
 ## Configure default behaviour
 
 Configure defaults for uniget using environment variables.

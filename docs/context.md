@@ -31,7 +31,7 @@ This will install the tools in the user's home directory using the following pat
 
 Please make sure that `~/.local/bin` (and similar) is in your `PATH` environment variable.
 
-You cannot use `--prefix` or `--target` in user context. But the state and cache directories can be changed with the `--lib-root` and `--cache-root` flags.
+You cannot use `--prefix` or `--target` in user context.
 
 ### Example
 

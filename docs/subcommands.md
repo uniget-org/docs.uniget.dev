@@ -2,6 +2,14 @@
 
 The following subcommands are available.
 
+## bump
+
+Bump image references for a tool to the latest version. Supports `dockerfile`, `compose` and `kubernetes`. See `uniget bump --help` for details.
+
+## cache
+
+Configure caching of downloaded tools. See [caching](caching.md) for details.
+
 ## completion
 
 Generate completion scripts
@@ -14,15 +22,15 @@ See also [cron](cron.md)
 
 ## describe
 
-COMING SOON
+Show detailed information about a tool.
 
-## generate
+## generate (hidden)
 
-COMING SOON
+Generate a `Dockerfile` for a list of tools. See `uniget generate --help` for details.
 
-## healthcheck
+## healthcheck (hidden)
 
-COMING SOON
+Check the health of installed tools. See `uniget healthcheck --help` for details.
 
 ## help
 
@@ -48,9 +56,9 @@ Install manpages for uniget
 
 Show messages for a tools
 
-## postinstall
+## release-notes
 
-Deprecated and removed. Replaced by `shim`
+Show release notes for a tool
 
 ## search
 
@@ -62,7 +70,7 @@ Upgrade uniget to the latest version
 
 ## shim
 
-COMING SOON
+Install shim(s)
 
 ## tags
 
