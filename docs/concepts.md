@@ -10,9 +10,8 @@ The CLI is a statically linked Go binary and is used to discover, install and up
 
 Tools are defined by...
 
-`manifest.yaml` contains metadata about the tool
-
-`Dockerfile` packages the tool into a container image
+- `manifest.yaml` contains metadata about the tool
+- `Dockerfile` packages the tool into a container image
 
 Every tool is stored in a dedicated container image
 
