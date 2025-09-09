@@ -28,4 +28,5 @@ nav:
   - Authoring new tools: authoring.md
   - Docker: docker.md
   - Renovate: renovate.md
+  - Caching: caching.md
   - Air-Gapped: air-gapped.md
