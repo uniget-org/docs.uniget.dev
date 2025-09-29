@@ -4,19 +4,19 @@
 
 ## Global context (recommended)
 
-Installation commands for the uniget [CLI](https://github.com/uniget-org/cli).
+Installation commands for the uniget [CLI](https://gitlab.com/uniget-org/cli).
 
 ```bash
-curl -sLf https://github.com/uniget-org/cli/releases/latest/download/uniget_Linux_$(uname -m).tar.gz \
+curl -sLf https://gitlab.com/uniget-org/cli/-/releases/permalink/latest/downloads/uniget_Linux_$(uname -m).tar.gz \
 | sudo tar -xzC /usr/local/bin uniget
 ```
 
 ## User context
 
-Installation commands for the uniget [CLI](https://github.com/uniget-org/cli):
+Installation commands for the uniget [CLI](https://gitlab.com/uniget-org/cli):
 
 ```bash
-curl -sLf https://github.com/uniget-org/cli/releases/latest/download/uniget_Linux_$(uname -m).tar.gz \
+curl -sLf https://gitlab.com/uniget-org/cli/-/releases/permalink/latest/downloads/uniget_Linux_$(uname -m).tar.gz \
 | tar -xzC ~/.local/bin uniget
 ```
 
