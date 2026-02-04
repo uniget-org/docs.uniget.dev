@@ -2,14 +2,6 @@
 
 The `uniget` CLI comes with help included. The following scenarios are meant as quickstart tutorials.
 
-## You want the default set of tools
-
-By default, `uniget` will only install a small set of tools.
-
-```bash
-uniget install --default
-```
-
 ### You want to investigate which tools are available
 
 List which tools are available in `uniget`:
