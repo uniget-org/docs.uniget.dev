@@ -36,6 +36,10 @@ Check the health of installed tools. See `uniget healthcheck --help` for details
 
 Display help
 
+## hooks (hidden, upcoming)
+
+Execute custom scripts before and after installation and uninstallation. See `uniget hooks --help` for more information.
+
 ## inspect
 
 Show all files belonging to the specified tool: `uniget inspect docker`
