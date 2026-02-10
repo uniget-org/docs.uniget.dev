@@ -43,9 +43,11 @@ uniget upgrade
 Show which tools will be processed and updated:
 
 ```bash
-uniget install containerd --plan
-uniget upgrade --plan
+uniget install containerd --dry-run
+uniget upgrade --dry-run
 ```
+
+Up to and including v0.25.x, `--dry-run` was `--plan`.
 
 ### Reinstall tool(s)
 
