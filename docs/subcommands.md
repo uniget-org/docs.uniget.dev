@@ -36,9 +36,9 @@ Check the health of installed tools. See `uniget healthcheck --help` for details
 
 Display help
 
-## hooks (hidden, upcoming)
+## hooks
 
-Execute custom scripts before and after installation and uninstallation. See `uniget hooks --help` for more information.
+Execute custom scripts before and after installation and uninstallation. See `uniget hooks --help` for more information. See [hooks](hooks.md).
 
 ## inspect
 

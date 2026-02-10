@@ -22,6 +22,7 @@ nav:
   - Completion: completion.md
   - SystemD: systemd.md
   - Shell Profile: shell-profile.md
+  - Hooks: hooks.md
 - Concepts:
   - Overview: concepts.md
   - Manifest: manifest.md
