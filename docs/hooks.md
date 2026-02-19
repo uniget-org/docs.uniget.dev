@@ -30,8 +30,13 @@ The list of tools is provided as command line parameters, e.g.
 #!/bin/bash
 
 while test $# -gt 0; do
+
     # Do whatever you want
-    echo $1
+    case $1 in
+        docker)
+            sudo systemctl restart docker.service
+            ;;
+    esac
 
     shift
 done
