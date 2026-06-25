@@ -32,16 +32,16 @@ Point to a custom registry and repository.
 
 ## `--cache`, `--cache-directory`, `--cache-retention`
 
-Configure caching of downloaded tools. Defaults to `none`. Supported values are `file`, `docker`, `containerd`. See also [caching](caching.md).
+Configure caching of downloaded tools. Defaults to `none`. Supported values are `file`, `docker`, `containerd`. `--cache-retention` is specified in seconds. See also [caching](caching.md).
 
 ## `--log-level`
 
-Log level (trace, debug, info, warning, error) (default "warning")
+Log level (`trace`, `debug`, `info`, `warning`, `error`) (default `INFO`).
 
 ## `--debug`
 
-Sets debug log level. Short for `--log-level=debug`.
+Enable debug logging (short form: `-d`).
 
 ## `--trace`
 
-Sets trace log level. Short for `--log-level=trace`.
+Enable trace logging.

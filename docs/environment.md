@@ -32,7 +32,7 @@ export UNIGET_USER=true
 
 ### Custom target directory
 
-Configure a custo mtarget directory:
+Configure a custom target directory:
 
 ```bash
 export UNIGET_TARGET=/opt/uniget

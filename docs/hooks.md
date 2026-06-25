@@ -7,9 +7,9 @@ Execute custom scripts before and after installation and uninstallation.
 `uniget`  currently supports four types of hooks:
 
 1. pre-install is executed before any tool is installed and provides a list of tools planned for installation
-1. post-install is executed after tools are installed and provides a list of tools actually added
-1. pre-uninstall is executed before any tools are uninstalled and provides a list of tools planned for uninstallation
-1. post-uninstall is executed after tools are uninstalled and provides a list of tools actually uninstalled
+2. post-install is executed after tools are installed and provides a list of tools actually added
+3. pre-uninstall is executed before any tools are uninstalled and provides a list of tools planned for uninstallation
+4. post-uninstall is executed after tools are uninstalled and provides a list of tools actually uninstalled
 
 ## Directories
 
@@ -44,16 +44,16 @@ done
 
 ## Management
 
-If you place scripts in the directories manually, you must make then executable.
+If you place scripts in these directories manually, you must make them executable.
 
 You can also use the `hooks` subcommand to manage hooks:
 
-`hook list` displays all hooks of the type specified by the `--type` flag.
+`hooks list` displays all hooks of the type specified by the `--type` flag.
 
-`hook add` copies an existing file to the appropriate directory and makes the file executable. The `--type` flag takes the type of hook and the `--source` flag takes the files to copy.
+`hooks add` copies an existing file to the appropriate directory and makes the file executable. The `--type` flag takes the hook type and the `--source` flag points to the script to copy.
 
-`hook edit` calls your favourite editor to edit a hook. It relies on the environment variable EDITOR which must be seet. The `--type` flag takes the type of hook and exactly one argument naming the hook to edit.
+`hooks edit` opens a hook in your preferred editor. It uses `UNIGET_EDITOR` first and then `EDITOR`. The `--type` flag takes the hook type and exactly one argument naming the hook to edit.
 
-`hook test` is available for testing. The `--type` flag takes the type of hook, one argument naming the hook to run and multiple arguments naming the tools to supply.
+`hooks test` is available for testing. The `--type` flag takes the hook type, one argument naming the hook to run, and one or more arguments naming the tools to supply.
 
-`hook run` is available for simulating a specific hook type. The `--type` flag takes the type of hook. All hooks of the specified type are executes.
+`hooks run` is available for simulating a specific hook type. The `--type` flag takes the hook type. All hooks of the specified type are executed.
